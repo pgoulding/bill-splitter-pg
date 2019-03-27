@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tip Calculator</title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <form class="new-item-form">
+        <label>Bill Amount
+          <input type="number" class="new-item-form--bill-amount">
+        </label>
+        <label>Tip Percentage
+          <input type="number" class="new-item-form--tip-percentage">
+        </label>
+        <label>Number of People Dining
+          <input type="number" class="new-item-form--people-dining">
+        </label>
+        <input type="submit" class="new-item-form--submit" disabled>
+      </form>
+      <ul class="bill-list"></ul>
+    </div>
+    <script src="dependencies/jquery.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
