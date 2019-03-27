@@ -1,4 +1,5 @@
 # Bill Splitter
+This is a teaching example from Turing School of Software and Design
 
 ## Specification
 
